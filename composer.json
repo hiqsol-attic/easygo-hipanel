@@ -1,0 +1,89 @@
+{
+    "name": "hiqdev/easygo-hipanel",
+    "type": "yii2-extension",
+    "description": "EasyGo implementation of HiPanel",
+    "keywords": [
+        "easygo",
+        "hipanel",
+        "control panel",
+        "hosting",
+        "domains"
+    ],
+    "homepage": "https://github.com/hiqdev/easygo-hipanel",
+    "license": "BSD-3-Clause",
+    "support": {
+        "email": "support@easygocdn.com",
+        "source": "https://github.com/hiqdev/easygo-hipanel",
+        "issues": "https://github.com/hiqdev/easygo-hipanel/issues",
+        "wiki": "https://github.com/hiqdev/easygo-hipanel/wiki",
+        "forum": "http://forum.hiqdev.com/"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        },
+        {
+            "name": "Dmitry Naumenko",
+            "role": "Lead backend developer",
+            "email": "d.naumenko.a@gmail.com",
+            "homepage": "http://silverfire.me/"
+        },
+        {
+            "name": "Andrey Klochok",
+            "role": "Lead frontend developer",
+            "email": "andreyklochok@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        },
+        {
+            "name": "Yuriy Myronchuk",
+            "role": "QA Lead",
+            "email": "bladeroot@gmail.com",
+            "homepage": "http://hiqdev.com/"
+        }
+    ],
+    "require": {
+        "hiqdev/hipanel-core": "*@dev",
+        "hiqdev/hipanel-module-client": "*@dev",
+        "hiqdev/hipanel-module-finance": "*@dev",
+        "hiqdev/hipanel-module-integrations": "<2.0 || dev-master",
+        "hiqdev/hipanel-module-domain": "*@dev",
+        "hiqdev/hipanel-module-dns": "*@dev",
+        "hiqdev/hipanel-module-certificate": "<2.0 || dev-master",
+        "hiqdev/hipanel-module-server": "*@dev",
+        "hiqdev/hipanel-module-hosting": "*@dev",
+        "hiqdev/hipanel-module-stock": "*@dev",
+        "hiqdev/hipanel-module-document": "*@dev",
+        "hiqdev/hipanel-module-mailing": "*@dev",
+        "hiqdev/hipanel-module-ticket": "*@dev",
+        "hiqdev/hipanel-mrdp": "<2.0 || dev-master",
+        "hiqdev/hisite-module-news": "*@dev",
+        "hiqdev/hipanel-module-dashboard": "*@dev",
+        "hiqdev/yii2-theme-adminlte": "*@dev"
+    },
+    "require-dev": {
+        "hiqdev/hidev-php": "*@dev",
+        "hiqdev/hidev-hiqdev": "*@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "easygo\\hipanel\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "config/params.php",
+            "web": "config/web.php"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

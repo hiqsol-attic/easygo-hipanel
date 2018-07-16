@@ -1,0 +1,17 @@
+package:
+    type:           yii2-extension
+    name:           easygo-hipanel
+    title:          EasyGo implementation of HiPanel
+    headline:       EasyGo HiPanel
+    keywords:       easygo, hipanel, control panel, hosting, domains
+    description:    |
+        [HiPanel] is next generation billing and control panel for hosting, domains and more.
+
+        This package is HiPanel build for [EasyGoCDN.com].
+
+        [HiPanel]: https://hipanel.com/
+        [EasyGoCDN.com]: https://easygocdn.com/
+
+vendor:
+    homepage: http://easygocdn.com/
+    email: support@easygocdn.com
