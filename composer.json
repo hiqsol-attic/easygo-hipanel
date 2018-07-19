@@ -48,6 +48,7 @@
         "hiqdev/hipanel-core": "*@dev",
         "hiqdev/hipanel-module-client": "*@dev",
         "hiqdev/hipanel-module-finance": "*@dev",
+        "hiqdev/hipanel-module-documents": "*@dev",
         "hiqdev/hipanel-mrdp": "<2.0 || dev-master",
         "hiqdev/yii2-theme-adminlte": "*@dev"
     },
